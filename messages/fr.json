@@ -2595,7 +2595,7 @@
       },
       "phone": {
         "title": "Téléphone",
-        "number": "+237 677 777 777",
+        "number": "+237 672 141 321",
         "hours": "Lun-Ven, 8h00 - 18h00 WAT"
       },
       "email": {
@@ -2749,7 +2749,7 @@
       },
       "phone": {
         "label": "Téléphone",
-        "number": "+237 677 777 777"
+        "number": "+237 672 141 321"
       }
     },
     "form": {
@@ -2773,7 +2773,7 @@
         },
         "phone": {
           "label": "Numéro de Téléphone",
-          "placeholder": "+237 677 777 777",
+          "placeholder": "+237 672 141 321",
           "required": false
         },
         "company": {
@@ -4661,7 +4661,7 @@
         "phone": {
           "title": "Support Téléphonique",
           "desc": "Parler à notre équipe",
-          "value": "+237 677 777 777",
+          "value": "+237 672 141 321",
           "hours": "Lun-Ven, 8h-18h WAT"
         },
         "chat": {
@@ -4812,7 +4812,7 @@
       "beacCompliant": "Conforme Régulateur",
       "cemacRegion": "Couverture Pan-Africaine",
       "location": "Afrique",
-      "phone": "+237 677 777 777",
+      "phone": "+237 672 141 321",
       "email": "info@tikari.cm"
     },
     "platform": {

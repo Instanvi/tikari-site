@@ -59,7 +59,7 @@ export default function HelpCenterPage() {
               <PhoneCall className="h-5 w-5 text-tikari-gold shrink-0" />
               <div>
                 <p className="text-xs text-tikari-sage uppercase tracking-wider">Phone Support</p>
-                <p className="text-sm font-bold text-tikari-green-dark">+237 677 777 777</p>
+                <p className="text-sm font-bold text-tikari-green-dark">+237 672 141 321</p>
               </div>
             </div>
             <div className="flex items-center gap-3">
