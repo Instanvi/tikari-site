@@ -494,7 +494,7 @@ export default function SupportPage() {
             <Button
               variant="primary"
               size="lg"
-              href="mailto:support@tikari.cm"
+              href="mailto:hi@instanvi.com"
             >
               {t("cta.contactSupport")}
               <ArrowRight

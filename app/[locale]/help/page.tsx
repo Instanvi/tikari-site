@@ -66,7 +66,7 @@ export default function HelpCenterPage() {
               <Mail className="h-5 w-5 text-tikari-gold shrink-0" />
               <div>
                 <p className="text-xs text-tikari-sage uppercase tracking-wider">Email Support</p>
-                <p className="text-sm font-bold text-tikari-green-dark">info@tikari.cm</p>
+                <p className="text-sm font-bold text-tikari-green-dark">hi@instanvi.com</p>
               </div>
             </div>
           </div>

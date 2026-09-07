@@ -2602,15 +2602,15 @@
         "title": "Email",
         "general": {
           "label": "Général :",
-          "address": "info@tikari.cm"
+          "address": "hi@instanvi.com"
         },
         "sales": {
           "label": "Ventes et Démos :",
-          "address": "sales@tikari.cm"
+          "address": "hi@instanvi.com"
         },
         "support": {
           "label": "Support :",
-          "address": "support@tikari.cm"
+          "address": "hi@instanvi.com"
         }
       },
       "hours": {
@@ -4655,7 +4655,7 @@
         "email": {
           "title": "Support par Email",
           "desc": "Obtenir de l'aide par email",
-          "value": "support@tikari.cm",
+          "value": "hi@instanvi.com",
           "response": "Réponse sous 24 heures"
         },
         "phone": {
@@ -4736,7 +4736,7 @@
     },
     "section4": {
       "title": "4. Conservation des données",
-      "content": "Les données de demande de démo sont conservées pendant 24 mois à compter de la date de soumission, ou jusqu'à ce que vous demandiez leur suppression. Nous supprimons les données sur demande. Vous pouvez nous contacter à privacy@tikari.cm."
+      "content": "Les données de demande de démo sont conservées pendant 24 mois à compter de la date de soumission, ou jusqu'à ce que vous demandiez leur suppression. Nous supprimons les données sur demande. Vous pouvez nous contacter à hi@instanvi.com."
     },
     "section5": {
       "title": "5. Sécurité des données",
@@ -4748,7 +4748,7 @@
     },
     "section7": {
       "title": "7. Vos droits",
-      "content": "Vous avez le droit de demander l'accès, la correction ou la suppression de toute information personnelle que nous détenons à votre sujet en vertu des directives régionales de sécurité des consommateurs de la CEMAC. Pour exercer l'un de ces droits, contactez-nous à privacy@tikari.cm. Nous répondrons dans les 30 jours."
+      "content": "Vous avez le droit de demander l'accès, la correction ou la suppression de toute information personnelle que nous détenons à votre sujet en vertu des directives régionales de sécurité des consommateurs de la CEMAC. Pour exercer l'un de ces droits, contactez-nous à hi@instanvi.com. Nous répondrons dans les 30 jours."
     },
     "section8": {
       "title": "8. Modifications de cette politique",
@@ -4758,7 +4758,7 @@
       "title": "9. Contact",
       "companyName": "TIKARI Technology Limited",
       "location": "Douala, Cameroun",
-      "email": "E-mail : privacy@tikari.cm"
+      "email": "E-mail : hi@instanvi.com"
     }
   },
   "terms": {
@@ -4803,7 +4803,7 @@
     "section9": {
       "title": "9. Contact",
       "content": "Pour les questions juridiques, vous pouvez contacter notre service juridique à :",
-      "email": "E-mail : legal@tikari.cm"
+      "email": "E-mail : hi@instanvi.com"
     }
   },
   "footer": {
@@ -4813,7 +4813,7 @@
       "cemacRegion": "Couverture Pan-Africaine",
       "location": "Afrique",
       "phone": "+237 672 141 321",
-      "email": "info@tikari.cm"
+      "email": "hi@instanvi.com"
     },
     "platform": {
       "title": "Plateforme",

@@ -2602,15 +2602,15 @@
         "title": "Email",
         "general": {
           "label": "General:",
-          "address": "info@tikari.cm"
+          "address": "hi@instanvi.com"
         },
         "sales": {
           "label": "Sales & Demos:",
-          "address": "sales@tikari.cm"
+          "address": "hi@instanvi.com"
         },
         "support": {
           "label": "Support:",
-          "address": "support@tikari.cm"
+          "address": "hi@instanvi.com"
         }
       },
       "hours": {
@@ -4655,7 +4655,7 @@
         "email": {
           "title": "Email Support",
           "desc": "Get help via email",
-          "value": "support@tikari.cm",
+          "value": "hi@instanvi.com",
           "response": "Response within 24 hours"
         },
         "phone": {
@@ -4736,7 +4736,7 @@
     },
     "section4": {
       "title": "4. Data retention",
-      "content": "Demo enquiry data is retained for 24 months from the date of submission, or until you request deletion. We delete data on request. You may contact us at privacy@tikari.cm."
+      "content": "Demo enquiry data is retained for 24 months from the date of submission, or until you request deletion. We delete data on request. You may contact us at hi@instanvi.com."
     },
     "section5": {
       "title": "5. Data security",
@@ -4748,7 +4748,7 @@
     },
     "section7": {
       "title": "7. Your rights",
-      "content": "You have the right to request access to, correction of, or deletion of any personal information we hold about you under regional CEMAC consumer safety guidelines. To exercise any of these rights, contact us at privacy@tikari.cm. We will respond within 30 days."
+      "content": "You have the right to request access to, correction of, or deletion of any personal information we hold about you under regional CEMAC consumer safety guidelines. To exercise any of these rights, contact us at hi@instanvi.com. We will respond within 30 days."
     },
     "section8": {
       "title": "8. Changes to this policy",
@@ -4758,7 +4758,7 @@
       "title": "9. Contact",
       "companyName": "TIKARI Technology Limited",
       "location": "Douala, Cameroon",
-      "email": "Email: privacy@tikari.cm"
+      "email": "Email: hi@instanvi.com"
     }
   },
   "terms": {
@@ -4803,7 +4803,7 @@
     "section9": {
       "title": "9. Contact",
       "content": "For legal queries, you may contact our legal department at:",
-      "email": "Email: legal@tikari.cm"
+      "email": "Email: hi@instanvi.com"
     }
   },
   "footer": {
@@ -4813,7 +4813,7 @@
       "cemacRegion": "Pan-African Coverage",
       "location": "Africa",
       "phone": "+237 672 141 321",
-      "email": "info@tikari.cm"
+      "email": "hi@instanvi.com"
     },
     "platform": {
       "title": "Platform",
