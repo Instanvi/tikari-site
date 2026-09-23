@@ -1,85 +1,62 @@
-# ============================================
-# Stage 1: Dependencies Installation Stage
-# ============================================
-# Based on: https://github.com/vercel/next.js/tree/canary/examples/with-docker
-# Docs: https://nextjs.org/docs/app/getting-started/deploying#docker
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# IMPORTANT: Node.js Version Maintenance
-# Update NODE_VERSION to the latest LTS as needed.
-ARG NODE_VERSION=24.13.0-slim
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
 
-FROM node:${NODE_VERSION} AS dependencies
+# testing
+/coverage
 
-WORKDIR /app
+# next.js
+/.next/
+/out/
 
-COPY package.json yarn.lock* package-lock.json* pnpm-lock.yaml* .npmrc* ./
+# production
+/build
 
-RUN --mount=type=cache,target=/root/.npm \
-  --mount=type=cache,target=/usr/local/share/.cache/yarn \
-  --mount=type=cache,target=/root/.local/share/pnpm/store \
-  if [ -f package-lock.json ]; then \
-    npm ci --no-audit --no-fund; \
-  elif [ -f yarn.lock ]; then \
-    corepack enable yarn && yarn install --frozen-lockfile --production=false; \
-  elif [ -f pnpm-lock.yaml ]; then \
-    corepack enable pnpm && pnpm install --frozen-lockfile; \
-  else \
-    echo "No lockfile found." && exit 1; \
-  fi
+# misc
+.DS_Store
+*.pem
 
-# ============================================
-# Stage 2: Build Next.js application in standalone mode
-# ============================================
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
 
-FROM node:${NODE_VERSION} AS builder
+# env files
+.env*
+!.env.example
 
-WORKDIR /app
+# vercel
+.vercel
 
-COPY --from=dependencies /app/node_modules ./node_modules
-COPY . .
+# typescript
+*.tsbuildinfo
+next-env.d.ts
 
-ENV NODE_ENV=production
+# git
+.git
+.gitignore
 
-# Optional: disable telemetry during build
-# ENV NEXT_TELEMETRY_DISABLED=1
+# docker
+Dockerfile
+.dockerignore
 
-RUN if [ -f package-lock.json ]; then \
-    npm run build; \
-  elif [ -f yarn.lock ]; then \
-    corepack enable yarn && yarn build; \
-  elif [ -f pnpm-lock.yaml ]; then \
-    corepack enable pnpm && pnpm build; \
-  else \
-    echo "No lockfile found." && exit 1; \
-  fi
+# IDEs
+.vscode
+.idea
+*.swp
+*.swo
+*~
 
-# ============================================
-# Stage 3: Run Next.js application
-# ============================================
-
-FROM node:${NODE_VERSION} AS runner
-
-WORKDIR /app
-
-ENV NODE_ENV=production
-ENV PORT=3010
-ENV HOSTNAME="0.0.0.0"
-
-# Optional: disable telemetry at runtime
-# ENV NEXT_TELEMETRY_DISABLED=1
-
-COPY --from=builder --chown=node:node /app/public ./public
-
-RUN mkdir .next
-RUN chown node:node .next
-
-# Automatically leverage output traces to reduce image size
-# https://nextjs.org/docs/app/api-reference/config/next-config-js/output
-COPY --from=builder --chown=node:node /app/.next/standalone ./
-COPY --from=builder --chown=node:node /app/.next/static ./.next/static
-
-USER node
-
-EXPOSE 3010
-
-CMD ["node", "server.js"]
+# README and docs
+README.md
+*.md
+!package.json
