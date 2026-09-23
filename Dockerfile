@@ -39,6 +39,7 @@ COPY --from=dependencies /app/node_modules ./node_modules
 COPY . .
 
 ENV NODE_ENV=production
+ENV DOCKER_BUILD=true
 
 # Optional: disable telemetry during build
 # ENV NEXT_TELEMETRY_DISABLED=1
