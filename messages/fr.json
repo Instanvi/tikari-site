@@ -2237,8 +2237,8 @@
       "badge": "Notre Vision",
       "title": "L'Histoire de TIKARI",
       "paragraph1": "TIKARI est construit sur les fondements du commerce éthique : la confiance, le partenariat et la prospérité partagée qui s'alignent sur les valeurs financières islamiques.",
-      "paragraph2": "Comme les anciens commerçants qui ont bâti la confiance par un commerce honnête, TIKARI est une plateforme d'échange éthique. Nous ne profitons pas de l'argent lui-même—nous profitons de l'activité productive. Nous ne facturons pas d'intérêt—nous partageons les résultats économiques réels.",
-      "paragraph3": "Notre vision : chaque banque communautaire, coopérative et institution de microfinance à travers nos régions supportées devrait avoir accès à une infrastructure bancaire islamique de classe mondiale—transparente, auditable et certifiée par des érudits."
+      "paragraph2": "Comme les anciens commerçants qui ont bâti la confiance par un commerce honnête, TIKARI est une plateforme d'échange éthique. Nous ne profitons pas de l'argent lui-même nous profitons de l'activité productive. Nous ne facturons pas d'intérêt nous partageons les résultats économiques réels.",
+      "paragraph3": "Notre vision : chaque banque communautaire, coopérative et institution de microfinance à travers nos régions supportées devrait avoir accès à une infrastructure bancaire islamique de classe mondiale transparente, auditable et certifiée par des érudits."
     },
     "values": {
       "heading": "Nos Principes Fondamentaux",
@@ -3087,7 +3087,7 @@
         "example": {
           "title": "Exemple Pratique: Compte d'Investissement Mudarabah",
           "description": "Un client dépose 10 millions de FCFA dans un compte d'épargne Mudarabah. La banque (agissant en tant que mudarib ou gestionnaire de fonds) investit ce capital dans des entreprises conformes à la Charia.",
-          "profitScenario": "Si les investissements génèrent un bénéfice de 500 000 FCFA, le bénéfice est réparti selon un Ratio de Partage des Bénéfices (PSR)—disons 60% pour le client et 40% pour la banque.",
+          "profitScenario": "Si les investissements génèrent un bénéfice de 500 000 FCFA, le bénéfice est réparti selon un Ratio de Partage des Bénéfices (PSR) disons 60% pour le client et 40% pour la banque.",
           "lossScenario": "Si les investissements entraînent une perte due aux conditions du marché (pas de négligence), le client supporte la perte sur le capital, et la banque perd son temps et ses efforts.",
           "comparison": "Ceci est fondamentalement différent des comptes d'épargne conventionnels, où la banque garantit un taux d'intérêt fixe indépendamment de sa performance d'investissement."
         }

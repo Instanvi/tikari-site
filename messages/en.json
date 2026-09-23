@@ -2237,8 +2237,8 @@
       "badge": "Our Vision",
       "title": "The TIKARI Story",
       "paragraph1": "TIKARI is built on the foundations of ethical trade: trust, partnership, and shared prosperity that align with Islamic financial values.",
-      "paragraph2": "Like the ancient traders who built trust through honest commerce, TIKARI is a platform for ethical exchange. We don't profit from money itself—we profit from productive activity. We don't charge interest—we share in real economic outcomes.",
-      "paragraph3": "Our vision: every community bank, cooperative, and microfinance institution across our supported regions should have access to world-class Islamic banking infrastructure—transparent, auditable, and certified by scholars."
+      "paragraph2": "Like the ancient traders who built trust through honest commerce, TIKARI is a platform for ethical exchange. We don't profit from money itself we profit from productive activity. We don't charge interest we share in real economic outcomes.",
+      "paragraph3": "Our vision: every community bank, cooperative, and microfinance institution across our supported regions should have access to world-class Islamic banking infrastructure transparent, auditable, and certified by scholars."
     },
     "values": {
       "heading": "Our Foundational Principles",
@@ -3066,7 +3066,7 @@
             "example": {
               "title": "Practical Example: Mudarabah Investment Account",
               "description": "A customer deposits 10 million FCFA into a Mudarabah savings account. The bank (acting as mudarib or fund manager) invests this capital in Shariah-compliant ventures.",
-              "profitScenario": "If the investments generate a profit of 500,000 FCFA, the profit is split according to a Profit-Sharing Ratio (PSR)—say 60% to the customer and 40% to the bank.",
+              "profitScenario": "If the investments generate a profit of 500,000 FCFA, the profit is split according to a Profit-Sharing Ratio (PSR) say 60% to the customer and 40% to the bank.",
               "lossScenario": "If the investments result in a loss due to market conditions (not negligence), the customer bears the loss on capital, and the bank loses its time and effort.",
               "comparison": "This is fundamentally different from conventional savings accounts, where the bank guarantees a fixed interest rate regardless of its investment performance."
             }
