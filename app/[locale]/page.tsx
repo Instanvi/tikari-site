@@ -2,6 +2,7 @@ import {
   HeroSection,
   TrustBar,
   ProblemSection,
+  ProductsSection,
   PlatformOverviewSection,
   FinancingCalculatorSection,
   OperationsSection,
@@ -18,6 +19,7 @@ export default function Home() {
       <HeroSection />
       <TrustBar />
       <ProblemSection />
+      <ProductsSection />
       <PlatformOverviewSection />
       <FinancingCalculatorSection />
       <OperationsSection />

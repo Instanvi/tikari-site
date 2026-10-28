@@ -14,10 +14,10 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto">
         
         {/* Main Footer Content */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 sm:gap-10 lg:gap-12 mb-10 sm:mb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 sm:gap-10 lg:gap-8 mb-10 sm:mb-12">
           
           {/* Brand Column */}
-          <div className="sm:col-span-2 space-y-5 sm:space-y-6">
+          <div className="sm:col-span-2 lg:col-span-2 space-y-5 sm:space-y-6">
             <Link href="/" className="flex items-center group">
               <Image
                 src="/logo.svg"
@@ -57,6 +57,20 @@ export default function Footer() {
           </div>
 
           {/* Products Column */}
+          <div>
+            <h4 className="text-sm font-bold text-white mb-4 sm:mb-6">
+              {t("products.title")}
+            </h4>
+            <ul className="space-y-2.5 sm:space-y-3 text-sm text-white/70">
+              <li><Link href="/products/core" className="hover:text-tikari-gold transition-colors">{t("products.core")}</Link></li>
+              <li><Link href="/products/los" className="hover:text-tikari-gold transition-colors">{t("products.los")}</Link></li>
+              <li><Link href="/products/asset-manager" className="hover:text-tikari-gold transition-colors">{t("products.assetManager")}</Link></li>
+              <li><Link href="/products/takaful" className="hover:text-tikari-gold transition-colors">{t("products.takaful")}</Link></li>
+              <li className="pt-1"><Link href="/products" className="text-tikari-gold font-medium hover:underline inline-flex items-center gap-1">{t("products.allProducts")} →</Link></li>
+            </ul>
+          </div>
+
+          {/* Platform Column */}
           <div>
             <h4 className="text-sm font-bold text-white mb-4 sm:mb-6">
               {t("platform.title")}

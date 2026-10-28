@@ -326,6 +326,69 @@
         "Présentation en direct de 45 minutes",
         "Adapté à votre institution"
       ]
+    },
+    "productsSection": {
+      "badge": "Gamme de Produits Tikari",
+      "title": "Quatre Produits Majeurs Sous la Marque Tikari",
+      "subtitle": "Des logiciels financiers modulaires, interopérables et strictement conformes à la Shariah, conçus pour les banques, institutions de microfinance, coopératives et opérateurs de takaful.",
+      "exploreAll": "Découvrir tous les produits",
+      "learnMore": "En savoir plus",
+      "bannerTitle": "Vous recherchez un écosystème bancaire Shariah unifié ?",
+      "bannerSubtitle": "Déployez Tikari Core, LOS, Asset Manager et Takaful ensemble pour une automatisation complète de bout en bout.",
+      "products": {
+        "core": {
+          "badge": "Banque Centrale",
+          "name": "Tikari Core",
+          "tagline": "La Plateforme Bancaire Centrale",
+          "description": "Le système d'exploitation bancaire fondamental pour les banques sans intérêt et les IMF. Intègre un grand livre certifié AAOIFI-SYSCOHADA, les dépôts Wadiah, les pools de partage de profits Mudarabah, les opérations de caisse multi-devises et le reporting réglementaire automatisé.",
+          "features": [
+            "Grand livre double partie certifié AAOIFI",
+            "Dépôts Wadiah et pools de partage Mudarabah",
+            "Déclarations réglementaires Banque Centrale automatisées",
+            "Clôture de fin de journée (EOD) en moins de 10 minutes"
+          ],
+          "link": "/products/core"
+        },
+        "los": {
+          "badge": "Octroi & Instruction",
+          "name": "Tikari Loan Origination System (LOS)",
+          "tagline": "Pipeline Intelligent de Financement Islamique",
+          "description": "Logiciel d'octroi de crédit complet automatisant le cycle de vie du financement islamique, de la demande au décaissement. Prend en charge Murabaha, Mudarabah, Musharakah et Ijara avec scoring crédit automatisé, approbations maker-checker et liaison aux fatwas du comité Shariah.",
+          "features": [
+            "Flux natifs pour Murabaha, Ijara et Musharakah",
+            "Contrôle de conformité Shariah & liaison Fatwas",
+            "Scoring crédit configurable et calcul des ratios d'endettement",
+            "Approbations collégiales à quatre yeux et décaissement direct"
+          ],
+          "link": "/products/los"
+        },
+        "assetManager": {
+          "badge": "Gestion d'Actifs & Stocks",
+          "name": "Tikari Asset Manager",
+          "tagline": "Gestion et Suivi des Actifs Financés",
+          "description": "Plateforme spécialisée de gestion et de surveillance d'actifs conçue pour la finance islamique adossée à des actifs tangibles. Gère les stocks physiques de marchandises Murabaha, planifie la maintenance des équipements Ijara, suit les rachats Musharakah et audite les garanties physiques.",
+          "features": [
+            "Suivi des stocks financés et bons de commande fournisseurs",
+            "Planning de maintenance et amortissement des actifs Ijara",
+            "Rachat progressif des parts Musharakah et transfert de propriété",
+            "Inspections géolocalisées et audits réguliers des garanties"
+          ],
+          "link": "/products/asset-manager"
+        },
+        "takaful": {
+          "badge": "Assurance Islamique",
+          "name": "Tikari Takaful",
+          "tagline": "Infrastructure d'Assurance Mutuelle",
+          "description": "Plateforme Takaful de nouvelle génération pour les opérateurs d'assurance participative. Prend en charge les modèles opérationnels Mudarabah (partage de bénéfices) et Wakalah (frais d'agence), avec séparation stricte des fonds des participants (Tabarru) et des actionnaires.",
+          "features": [
+            "Moteur bi-modèle : modes Mudarabah et Wakalah",
+            "Ségrégation étanche des fonds Tabarru et actionnaires",
+            "Gestion automatisée des sinistres et expertises",
+            "Distribution des excédents techniques et gestion du Qard Hasan"
+          ],
+          "link": "/products/takaful"
+        }
+      }
     }
   },
   "platform": {
@@ -1709,6 +1772,30 @@
         "badge": "Conseil de Confiance",
         "title": "Vérifié par les Érudits",
         "desc": "Découvrez les érudits indépendants qui supervisent notre code de registre."
+      }
+    },
+    "products": {
+      "title": "Produits",
+      "core": {
+        "name": "Tikari Core",
+        "desc": "La plateforme bancaire centrale avec grand livre double AAOIFI, dépôts et opérations multi-agences."
+      },
+      "los": {
+        "name": "Tikari LOS",
+        "desc": "Système d'octroi de financements de bout en bout pour l'instruction, le scoring crédit et les décaissements."
+      },
+      "assetManager": {
+        "name": "Tikari Asset Manager",
+        "desc": "Gestion des actifs financés, suivi des stocks, garde physique et surveillance d'actifs en temps réel."
+      },
+      "takaful": {
+        "name": "Tikari Takaful",
+        "desc": "Plateforme d'assurance islamique (Takaful) opérant sous les modèles Mudarabah et Wakalah."
+      },
+      "featured": {
+        "badge": "Gamme de Produits",
+        "title": "Les Produits de la Marque Tikari",
+        "desc": "Quatre produits logiciels financiers spécialisés et conformes aux régulateurs pour les institutions islamiques."
       }
     }
   },
@@ -4871,6 +4958,161 @@
       "privacy": "Politique de Confidentialité",
       "terms": "Conditions d'Utilisation",
       "security": "Sécurité"
+    },
+    "products": {
+      "title": "Produits",
+      "core": "Tikari Core (Core Banking)",
+      "los": "Tikari LOS (Octroi de Crédits)",
+      "assetManager": "Tikari Asset Manager",
+      "takaful": "Tikari Takaful (Assurance)",
+      "allProducts": "Découvrir tous les produits"
+    }
+  },
+  "products": {
+    "meta": {
+      "title": "Produits Tikari - Suite Logicielle Financière Conforme à la Shariah",
+      "description": "Découvrez les 4 produits spécialisés de la marque Tikari : Tikari Core, Tikari Loan Origination System (LOS), Tikari Asset Manager et Tikari Takaful."
+    },
+    "suite": {
+      "badge": "La Marque Tikari",
+      "title": "Quatre Produits. Une Architecture Shariah Unifiée.",
+      "subtitle": "Conçu spécifiquement pour dépasser les contraintes structurelles des logiciels bancaires conventionnels à intérêt. Déployables individuellement ou comme un écosystème unifié.",
+      "scheduleDemo": "Réserver une Démo",
+      "contactSales": "Parler à un Expert"
+    },
+    "core": {
+      "badge": "Plateforme Bancaire Centrale",
+      "title": "Tikari Core",
+      "subtitle": "Le moteur financier complet pour les banques islamiques, institutions de microfinance et guichets islamiques.",
+      "description": "Conçu dès l'origine autour des normes comptables AAOIFI. Tikari Core remplace les grands livres conventionnels rigides par des contrats Shariah natifs, des ratios de partage de bénéfices automatisés, un reporting réglementaire en temps réel et des clôtures EOD en moins de 10 minutes.",
+      "stat1": "< 10 min",
+      "stat1Desc": "Clôture de Fin de Journée (EOD)",
+      "stat2": "100%",
+      "stat2Desc": "Grand Livre Double AAOIFI & OHADA",
+      "stat3": "12+",
+      "stat3Desc": "Rapports Réglementaires Automatisés",
+      "capabilities": [
+        {
+          "title": "Plan Comptable AAOIFI & Double Grand Livre",
+          "description": "Grand livre en partie double pré-paramétré pour la banque sans intérêt. Les marges Murabaha ne sont jamais confondues avec des intérêts. Entièrement conforme au SYSCOHADA / OHADA."
+        },
+        {
+          "title": "Comptes de Garde Wadiah & Pools d'Investissement Mudarabah",
+          "description": "Comptes courants et d'épargne sans intérêt sous contrat Wadiah. Calculs automatisés des ratios de partage des profits (PSR) et distribution mensuelle des rendements pour les pools Mudarabah."
+        },
+        {
+          "title": "Gestion de Caisse & Opérations Multi-Agences",
+          "description": "Gestion des tiroirs-caisses, multi-devises, plafonds d'encaisse, transferts de fonds inter-agences et équilibrage automatique des caisses en fin de journée."
+        },
+        {
+          "title": "Reporting Réglementaire Banque Centrale Automatisé",
+          "description": "Génère l'ensemble des états prudentiels, ratios de liquidité, adéquation des fonds propres et déclarations de garantie des dépôts directement depuis le grand livre."
+        }
+      ]
+    },
+    "los": {
+      "badge": "Système d'Octroi de Crédit (LOS)",
+      "title": "Tikari Loan Origination System",
+      "subtitle": "Pipeline digital complet d'instruction, d'évaluation, d'approbation Shariah et de décaissement.",
+      "description": "Éliminez les lenteurs manuelles d'octroi de financement. Tikari LOS orchestre la saisie des dossiers, le choix des contrats Shariah, la notation des risques, la validation par le comité de conformité (ACE), les approbations maker-checker et la génération des contrats.",
+      "stat1": "65%",
+      "stat1Desc": "Réduction des Délais d'Octroi",
+      "stat2": "100%",
+      "stat2Desc": "Traçabilité des Fatwas Shariah",
+      "stat3": "Multi-Niveaux",
+      "stat3Desc": "Matrice d'Approbation Maker-Checker",
+      "capabilities": [
+        {
+          "title": "Pipeline Multi-Contrats de Financement Islamique",
+          "description": "Workflows prêts à l'emploi pour Murabaha (commerce & équipement), Ijara (crédit-bail), Musharakah Dégressive (partenariat avec rachat), Salam et Istisna."
+        },
+        {
+          "title": "Filtrage Shariah Automatique & Référencement des Fatwas",
+          "description": "Chaque demande est validée selon les paramètres de conformité. Associe directement les références de Fatwa approuvées et conserve les résolutions du comité de surveillance."
+        },
+        {
+          "title": "Scoring Crédit Intelligent & Analyse Financière",
+          "description": "Modèles de scoring configurables, calculs automatisés des ratios d'endettement et de couverture du service de la dette (DSCR), intégration des bureaux de crédit et vérification KYC."
+        },
+        {
+          "title": "Comités d'Octroi Délégataires & Contrats Numériques",
+          "description": "Délégation de pouvoir paramétrable. Les dossiers à fort montant cheminent automatiquement entre directeurs d'agence, comités de crédit et conseillers Shariah avec signature électronique."
+        }
+      ]
+    },
+    "assetManager": {
+      "badge": "Gestion & Contrôle des Actifs",
+      "title": "Tikari Asset Manager",
+      "subtitle": "Garde physique, gestion des stocks et surveillance continue de tous les actifs financés.",
+      "description": "En finance islamique, l'institution financière doit détenir légalement et posséder les actifs physiques avant leur rétrocession. Tikari Asset Manager comble le fossé entre les écritures comptables et les biens réels grâce au suivi des stocks, à la maintenance et à l'inspection des garanties.",
+      "stat1": "Temps Réel",
+      "stat1Desc": "Traçabilité des Stocks et Actifs",
+      "stat2": "Zéro Faille",
+      "stat2Desc": "Vérification de Propriété Fournisseur-Client",
+      "stat3": "Géolocalisé",
+      "stat3Desc": "Inspections Terrain des Garanties",
+      "capabilities": [
+        {
+          "title": "Registre des Stocks et Marchandises Murabaha",
+          "description": "Conserve la preuve de propriété et de prise de possession avant la vente. Gère les bons de commande fournisseurs, bordereaux de réception, lieux d'entreposage et avis de livraison client."
+        },
+        {
+          "title": "Cycle de Vie & Maintenance des Biens Ijara",
+          "description": "Suivi des véhicules, machines lourdes, équipements et biens immobiliers loués. Contrôle des renouvellements d'assurance, carnets d'entretien et options d'achat en fin de bail."
+        },
+        {
+          "title": "Grand Livre des Parts Musharakah Dégressive",
+          "description": "Visualisation de la quote-part respective de la banque et du client. Recalcul automatique des loyers et des amortissements à mesure que le client acquiert de nouvelles parts."
+        },
+        {
+          "title": "Audit des Garanties & Inspections sur le Terrain",
+          "description": "Vérification photographique géolocalisée et rapports d'inspection pour les sûretés réelles gagées, entrepôts, véhicules et matériels financés."
+        }
+      ]
+    },
+    "takaful": {
+      "badge": "Plateforme d'Assurance Islamique",
+      "title": "Tikari Takaful",
+      "subtitle": "Infrastructure d'assurance mutuelle opérant sous les modèles Mudarabah et Wakalah.",
+      "description": "Conçu pour les assureurs islamiques, programmes de micro-takaful et mutuelles de crédit. Tikari Takaful garantit la ségrégation stricte des fonds des participants (dons Tabarru) et des fonds actionnaires, calcule les surplus techniques et automatise le traitement des sinistres.",
+      "stat1": "Bi-Modèle",
+      "stat1Desc": "Gouvernance Mudarabah & Wakalah",
+      "stat2": "Ségrégué",
+      "stat2Desc": "Séparation Fonds Tabarru et Actionnaires",
+      "stat3": "Automatisé",
+      "stat3Desc": "Gestion des Sinistres & Excédents",
+      "capabilities": [
+        {
+          "title": "Moteur Opérationnel Mudarabah & Wakalah",
+          "description": "Modèles d'exploitation configurables : Wakalah (frais d'agence fixes pour la gestion) et Mudarabah (partage des profits sur les investissements), ou modèles hybrides."
+        },
+        {
+          "title": "Ségrégation du Fonds des Participants (PTF) & Tabarru",
+          "description": "Garantit la stricte séparation des primes/dons du capital propre de l'opérateur. Gestion des réserves techniques et des investissements conformes à la Shariah."
+        },
+        {
+          "title": "Souscription de Polices & Adhésion des Membres",
+          "description": "Émission instantanée de polices pour l'automobile, la santé, l'habitation, le crédit commercial et le micro-takaful. Gestion des prélèvements et paiements mobiles."
+        },
+        {
+          "title": "Traitement des Sinistres & Partage des Excédents",
+          "description": "Workflow complet de déclaration, désignation des experts et règlement des sinistres. Calcul automatisé des excédents d'exploitation et redistribution annuelle aux participants éligibles."
+        }
+      ]
+    },
+    "common": {
+      "backToProducts": "Tous les produits",
+      "bookDemo": "Réserver une démo produit",
+      "talkToSpecialist": "Parler à un expert",
+      "keyCapabilities": "Fonctionnalités Clés",
+      "architectureHighlights": "Architecture Entreprise",
+      "ecosystemIntegration": "Intégré à l'écosystème Tikari",
+      "ecosystemDescription": "S'intègre de manière transparente avec toute la suite logicielle Tikari pour une comptabilité Shariah unifiée et une gouvernance des risques optimale.",
+      "viewOtherProducts": "Découvrir les autres produits de la gamme",
+      "shariahCertified": "100% Certifié Shariah (Normes AAOIFI)",
+      "cobacCompliant": "Conforme Banque Centrale & COBAC",
+      "requestCustomDemo": "Planifier une démo en direct",
+      "learnMore": "En savoir plus"
     }
   }
 }

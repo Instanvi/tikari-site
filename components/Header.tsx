@@ -61,6 +61,15 @@ export default function Header() {
 
   const mobileNavSections = [
     {
+      title: t("products.title"),
+      items: [
+        { name: t("products.core.name"), href: "/products/core" },
+        { name: t("products.los.name"), href: "/products/los" },
+        { name: t("products.assetManager.name"), href: "/products/asset-manager" },
+        { name: t("products.takaful.name"), href: "/products/takaful" },
+      ]
+    },
+    {
       title: t("platform.title"),
       items: [
         { name: t("platform.bankingOperations.name"), href: "/platform/banking-operations" },
@@ -97,6 +106,13 @@ export default function Header() {
         { name: t("company.contact.name"), href: "/contact" },
       ]
     },
+  ];
+
+  const productItems = [
+    { name: t("products.core.name"), desc: t("products.core.desc"), href: "/products/core", icon: Bank },
+    { name: t("products.los.name"), desc: t("products.los.desc"), href: "/products/los", icon: Coins },
+    { name: t("products.assetManager.name"), desc: t("products.assetManager.desc"), href: "/products/asset-manager", icon: BuildingOffice },
+    { name: t("products.takaful.name"), desc: t("products.takaful.desc"), href: "/products/takaful", icon: ShieldCheck },
   ];
 
   const platformItems = [
@@ -151,6 +167,17 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-1">
+            <MegaMenu
+              label={t("products.title")}
+              scrolled={scrolled}
+              items={productItems}
+              featuredItem={{
+                badge: t("products.featured.badge"),
+                title: t("products.featured.title"),
+                desc: t("products.featured.desc"),
+                href: "/products",
+              }}
+            />
             <MegaMenu
               label={t("platform.title")}
               scrolled={scrolled}

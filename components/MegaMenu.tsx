@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useRef, useEffect, type ElementType } from "react";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { CaretDown } from "@phosphor-icons/react";
 
 interface MegaMenuItem {

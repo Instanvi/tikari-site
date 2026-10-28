@@ -2,6 +2,7 @@ export { default as HeroSection } from './HeroSection';
 export { default as TrustBar } from './TrustBar';
 export { default as ProblemSection } from './ProblemSection';
 export { default as IslamicProductsSection } from './IslamicProductsSection';
+export { default as ProductsSection } from './ProductsSection';
 export { default as CameroonMarketSection } from './CameroonMarketSection';
 export { default as StatisticsSection } from './StatisticsSection';
 export { default as TestimonialSection } from './TestimonialSection';
